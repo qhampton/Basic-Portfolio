@@ -24,6 +24,17 @@ header{
     background-color:#ffffff;
 }
 
+h1{
+    height: 25px;
+    width: 150px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    size: 100px;
+}
+
+h2{
+    color: #4aaaa5;
+}
 nav{
     grid-area: header;
     float: right;
@@ -47,6 +58,11 @@ main{
     position: relative;
 }
 
+button{
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+}
 footer{
     grid-area: footer;
     position: fixed;
