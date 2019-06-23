@@ -2,46 +2,60 @@
 <html lang="en">
 
 <!--Link to css file-->
+
 <head>
     <title>Portfolio Page</title>
     <!--Reset file-->
-    <link rel= "stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
     <!--Link to css file-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class= "container">
+<body class="container">
     <!--Header of all pages includes: Name, and three buttons to all pages (about, portfolio, and contact)-->
-    <header>
-    <h1>Quinlan Hampton</h1>
+    <nav>
+        <h1>Quinlan Hampton</h1>
         <!--nav buttons-->
-        <nav>
-        <a href="index.html" target=blank_>About</a>
-        <a href="portfolio.html" target=blank_>Portfolio</a>
-        <a href="contact.html" target=blank_>Contact</a>
-        </nav>
-    </header>
-<!--Body has clickable images to projectd-->
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Body has clickable images to projectd-->
     <main>
 
         <h2>Portfolio</h2>
-        <p>Project 1</p>
-        <p>Project 2</p>
-        <p>Project 3</p>
-        <p>Project 4</p>
-        <p>Project 5</p>
-        <img src= "http://lorempixel.com/400/200/" alt= "project 1"/>
-        <img src= "http://lorempixel.com/400/200/" alt= "project 2"/>
-        <img src= "http://lorempixel.com/400/200/" alt= "project 3"/>
-        <img src= "http://lorempixel.com/400/200/" alt= "project 4"/>
-        <img src= "http://lorempixel.com/400/200/" alt= "project 5"/>
+
+        <div class="inner-grid">
+            <div class="project">
+                <img src="https://picsum.photos/400/200/" alt="project 1" />
+                <h2>Project 1</h2>
+            </div>
+
+            <div class="project">
+                <img src="https://picsum.photos/400/200/" alt="project 1" />
+                <h2>Project 2</h2>
+            </div>
+
+            <div class="project">
+                <img src="https://picsum.photos/400/200/" alt="project 1" />
+                <h2>Project 3</h2>
+            </div>
+
+            <div class="project">
+                <img src="https://picsum.photos/400/200/" alt="project 1" />
+                <h2>Project 4</h2>
+            </div>
+        </div>
 
     </main>
 
-<!--Footer: no info just css-->
-<footer>
-    <p>COPYRIGHT 2019©</p>
-</footer>
+    <!--Footer: no info just css-->
+    <footer>
+        <p>COPYRIGHT 2019©</p>
+    </footer>
 
 </body>
 </html>
